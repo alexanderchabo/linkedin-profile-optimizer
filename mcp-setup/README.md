@@ -50,6 +50,47 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
 
 After restarting, Claude will have access to LinkedIn tools!
 
+### Step 2 (Alternative): Configure VS Code
+
+If you're using VS Code with Copilot, add to your workspace `.vscode/mcp.json`:
+
+```json
+{
+  "servers": {
+    "linkedin": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["linkedin-scraper-mcp"]
+    }
+  },
+  "inputs": []
+}
+```
+
+**For Docker in VS Code**:
+
+```json
+{
+  "servers": {
+    "linkedin": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "~/.linkedin-mcp:/home/pwuser/.linkedin-mcp",
+        "stickerdaniel/linkedin-mcp-server:latest"
+      ]
+    }
+  },
+  "inputs": []
+}
+```
+
+Then reload VS Code window (Cmd+Shift+P → "Developer: Reload Window").
+
 ## 🐳 Alternative: Docker Setup
 
 If you prefer Docker:
@@ -157,6 +198,13 @@ Then restart Claude Desktop.
 - Verify config file syntax (valid JSON)
 - Restart Claude Desktop after config changes
 - Check `~/.linkedin-mcp/session.json` exists
+
+### "Tool not found" in VS Code
+
+- Verify `.vscode/mcp.json` syntax (valid JSON)
+- Reload VS Code window (Cmd+Shift+P → "Developer: Reload Window")
+- Check `~/.linkedin-mcp/session.json` exists
+- Ensure you're in the correct workspace folder
 
 ### Browser automation issues
 

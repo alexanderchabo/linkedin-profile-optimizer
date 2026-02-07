@@ -6,7 +6,10 @@ A systematic approach to optimizing your LinkedIn profile for maximum visibility
 
 This repository now includes **LinkedIn MCP (Model Context Protocol) integration** for automated profile analysis and optimization!
 
+**Works with**: Claude Desktop, VS Code (GitHub Copilot), and other MCP-compatible AI assistants
+
 With MCP, you can:
+
 - ✅ Automatically retrieve your current LinkedIn profile
 - ✅ Analyze job postings and match them to your profile
 - ✅ Research companies and trending content
@@ -84,14 +87,16 @@ With MCP, you can:
 
 ## 🚀 Quick Wins
 
-### Manual Approach:
+### Manual Approach
+
 1. Update headline with value proposition
 2. Add custom background banner
 3. Write compelling first 2 lines of About section
 4. Request 2-3 recommendations
 5. Post one valuable insight this week
 
-### Automated Approach (with MCP):
+### Automated Approach (with MCP)
+
 1. [Set up LinkedIn MCP](mcp-setup/README.md) (10 minutes)
 2. Run automated profile analysis
 3. Get AI-generated improvement suggestions
@@ -101,17 +106,20 @@ With MCP, you can:
 ## 📚 Resources
 
 ### Tools & Platforms
+
 - LinkedIn Profile Strength meter
 - LinkedIn Analytics dashboard
 - LinkedIn Learning courses
 - [LinkedIn MCP Server](https://github.com/stickerdaniel/linkedin-mcp-server)
 
 ### Documentation
+
 - [MCP Setup Guide](mcp-setup/README.md)
 - [Example Prompts](mcp-setup/example-prompts.md)
 - [Automation Scripts](mcp-setup/automation-scripts.md)
 
 ### Inspiration
+
 - Industry leader profiles to model
 - Company pages in your field
 - Top performers' content strategies
