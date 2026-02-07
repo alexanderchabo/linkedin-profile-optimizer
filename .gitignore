@@ -1,0 +1,35 @@
+# LinkedIn MCP Session Files (contains authentication data)
+.linkedin-mcp/
+session.json
+*.session
+
+# Personal data and API keys
+.env
+*.env.local
+.env.production
+
+# Analysis outputs that may contain personal info
+analytics/raw-data/
+analytics/personal/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Claude Desktop config (may contain sensitive info)
+claude_desktop_config.json
+
+# Python virtual environments (if using local setup)
+venv/
+__pycache__/
+*.pyc
+
+# Node modules (if adding any JS tooling)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

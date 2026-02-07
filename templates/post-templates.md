@@ -1,6 +1,7 @@
 # LinkedIn Post Templates
 
 ## Template 1: Learning/Insight Share
+
 ```
 [Hook - surprising stat or question]
 
@@ -18,6 +19,7 @@ What's your experience with this?
 ```
 
 ## Template 2: Project/Achievement Announcement
+
 ```
 [Exciting opening - what you accomplished]
 
@@ -36,6 +38,7 @@ What's your experience with this?
 ```
 
 ## Template 3: Story/Experience
+
 ```
 [Year] vs [Current Year]
 
@@ -55,6 +58,7 @@ The journey wasn't linear. Here's what made the difference:
 ```
 
 ## Template 4: Question/Engagement
+
 ```
 Quick question for [your audience]:
 
@@ -73,6 +77,7 @@ Drop your thoughts in the comments 👇
 ```
 
 ## Template 5: Listicle/Tips
+
 ```
 [X] tips I wish I knew about [topic]:
 
@@ -92,10 +97,10 @@ Which one resonates with you most?
 ```
 
 ## Best Practices
+
 - Hook in first 2 lines (before "see more")
 - Use emojis sparingly for visual breaks
 - Include 3-5 relevant hashtags
 - End with a call-to-action or question
 - Optimal length: 150-300 words
 - Post during peak times (usually 7-9 AM, 12-1 PM, 5-6 PM)
-
